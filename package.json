@@ -1,0 +1,16 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "A simple Node.js app",
+  "main": "nodeapp.js",
+  "scripts": {
+    "start": "node nodeapp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Milen Mladenov",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.24"
+  }
+}
