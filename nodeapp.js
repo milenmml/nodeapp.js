@@ -8,7 +8,7 @@ app.set('view engine', 'ejs');
 app.use(express.urlencoded({ extended: false }));
 
 // Connect to MongoDB Replica Set
-mmongoose.connect(process.env.MONGO_URL, {
+mongoose.connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
     replicaSet: process.env.MONGO_REPLICA_SET,
     poolSize: process.env.MONGO_POOL_SIZE,
